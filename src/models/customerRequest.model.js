@@ -10,7 +10,7 @@ const requestSchema = await mongoose.Schema({
     category: {
         type: String,
         required: [true, 'Please add a category'],
-        enum: ['Electronics', 'Furniture', 'Clothing', 'Books', 'Sports', 'Other']
+        enum: ['Electronics', 'Furniture', 'Clothing', 'Books', 'Sports', 'other']
     },
     description: {
         type: String,
